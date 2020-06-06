@@ -1,0 +1,71 @@
+:root {
+  --primary-text-color:  #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
+  --secondary-background-color: #F5F4FA;
+}
+body {
+  background-color: #FFFFFF;
+  color: var(--primary-text-color);
+  }
+  /*cтиль логотипа*/
+.logo {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+.logo-web{
+  color: #2196F3;
+}
+.logo-studio {
+  color: #212121;
+}
+/*сброс списка*/
+  ul {
+    list-style: none;
+  }
+  /*стиль навигации*/
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.site-contacts .link {
+  color: var(--title-text-color)
+}
+.site-contacts .link:hover,
+.site-contacts .link:focus{
+  color: var(--accent-color)
+}
+/*секция hero*/
+.hero .hero-title {
+  background-color: var(--secondary-background-color);
+  color: #FFFFFF;
+
+}
+/*заголовки в секциях*/
+.section-title {
+  color: var(--title-text-color);
+}
+
+/*секция преимудеств*/
+.advantages-list .title {
+color: var(--title-text-color);
+}
+/*кнопка*/
+.button {
+  color: #FFFFFF;
+  background-color: var(--accent-color);
+}
+/*остновной цвет текста
+color: #757575;*/
+
+/*цвет заголовков color: #212121;*/
+/* цвет страницы Background #E5E5E5*/
+/* вторичный цвет фона #F5F4FA*/
+/* цвет футер текста  #FFFFFF +  rgba(255, 255, 255, 0.6); = почта + тел + подпись нижней строки*/
