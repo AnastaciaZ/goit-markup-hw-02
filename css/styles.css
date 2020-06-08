@@ -29,8 +29,7 @@ body {
     list-style: none;
   }
   /*стиль навигации и навигации*/
-.site-nav .link,
-.site-contacts .link {
+.site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -45,7 +44,11 @@ body {
   color: var(--accent-color);
 }
 .site-contacts .link {
-  color: var(--title-text-color)
+  color: var(--primary-text-color)
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
 }
 .site-contacts .link:hover,
 .site-contacts .link:focus{
@@ -59,6 +62,7 @@ body {
   font-size: 44px;
   line-height: 1.4;
   text-align: center;
+  text-transform: uppercase;
 }
 /*заголовки в секциях*/
 .section-title {
@@ -119,6 +123,7 @@ line-height: 1.7x;
   align-items: center;
   text-align: center;
   letter-spacing: 1.9;
+  text-decoration: none;
 }
 /*footer*/
 .footer {
@@ -165,6 +170,7 @@ line-height: 1.7x;
   font-size: 12px;
   line-height: 2;
   text-align: center;
+  text-decoration: none;
 }
 /* portfolio*/
 .portfolio-title {
